@@ -1,0 +1,22 @@
+[
+	{
+		#conditions : [ ],
+		#ts : 3811490187,
+		#comment : '',
+		#formatVersion : '1.1',
+		#applications : OrderedCollection [
+			{
+				#name : 'KesMemoryTools',
+				#versionName : 'b494 + 68307 a',
+				#ts : 3810368474
+			},
+			{
+				#name : 'KesMemoryUsage',
+				#versionName : 'b494 + 68307 a',
+				#ts : 3810368477
+			}
+		],
+		#name : 'KES/Stats',
+		#versionName : '1.2'
+	}
+]

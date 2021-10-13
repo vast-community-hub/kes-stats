@@ -65,9 +65,11 @@ from the Tools menu of the Transcript.
 The first view generates approximate snapshots of all objects in memory.  By selecting two
 snapshots, you can compare the difference in new/discarded objects.
 
+<img width="863" alt="Screen Shot 2021-10-13 at 9 11 50 AM" src="https://user-images.githubusercontent.com/1032834/137130475-d767a6e1-2e1b-4a57-907d-b56d0e6fdb2a.png">
+
 The second view shows the memory usage of the code for the selected applications.
 
-
+<img width="901" alt="Screen Shot 2021-10-13 at 9 14 29 AM" src="https://user-images.githubusercontent.com/1032834/137130498-7f3d201d-25f8-4c43-93d6-bb0093faa376.png">
 
 
 ## Docs

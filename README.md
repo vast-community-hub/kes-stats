@@ -55,6 +55,7 @@ Or you can load the Configuration Map `KES/Stats` from the context menu of the C
 
 
 
+
 ## Getting Started
 
 This extension of the applications in the `ENVY/Stats ES-ALL` configuration map summarizes the object statistics in memory and allows you to easily see what kinds of objects were relinquished between two measurements by simple selection.
@@ -76,8 +77,8 @@ The second view shows the memory usage of the code for the selected applications
 
 The information of this project was previously published in 2 Eye on SmallTALK articles by Dan Kehn:
 
-1. [Smalltalk Dynamic Memory Consumption Analysis by Dan Kehn  (April 2000)](docs/old-readme/SmallTALKDynamicMemoryAnalysis.htm)
-2. [Smalltalk Static Memory Consumption Analysis  by Dan Kehn (December 2000)](docs/old-readme/SmallTALKStaticMemoryAnalysis.htm)
+1. [Smalltalk Dynamic Memory Consumption Analysis by Dan Kehn  (April 2000)](docs/articles/DynamicMemoryAnalysis.md)
+2. [Smalltalk Static Memory Consumption Analysis  by Dan Kehn (December 2000)](docs/articles/StaticMemoryAnalysis.md)
 
 
 

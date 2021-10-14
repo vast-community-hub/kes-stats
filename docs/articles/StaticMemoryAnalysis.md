@@ -205,7 +205,7 @@ a. They can easily be recreated at runtime via an initialization method, loading
 
 b. They should never have been packaged, but were included because of a dangling reference.
 
-Concluding that class instances are not needed at runtime clearly requires knowledge of how they are used. But once the decision is made, finding the reason why the instances are included in the package image is fairly straightforward; these techniques are covered in detail in my prior article, [Smalltalk Dynamic Memory Consumption Analysis](http://www-4.ibm.com/software/ad/smalltalk/discussion/2000/april/dev0400.html). Briefly, an instance is included in the packaged image only if its class is included and there is a hard reference (a global variable or class variable). You can either find what reference is causing an instance to be retained, and should it be a class variable, use the packaging method below:
+Concluding that class instances are not needed at runtime clearly requires knowledge of how they are used. But once the decision is made, finding the reason why the instances are included in the package image is fairly straightforward; these techniques are covered in detail in my prior article, [Smalltalk Dynamic Memory Consumption Analysis](DynamicMemoryAnalysis.md). Briefly, an instance is included in the packaged image only if its class is included and there is a hard reference (a global variable or class variable). You can either find what reference is causing an instance to be retained, and should it be a class variable, use the packaging method below:
 
 ```smalltalk
     aPackagedImage
@@ -285,7 +285,7 @@ aPackagedImage
 
 Sadly, I never did definitively prove my point. I found cases where the instances could not be eliminated simply by adding a packaging rule, so I was satisfied by eliminating around 70% of the “wasted” space.
 
-You may be asking yourself, why all this fuss for a few hundred kilobytes of memory? Well, I’ll save you the pain of reading my ranting about when I worked long ago on a PC/AT with expansion unit [\[4\]](http://www-4.ibm.com/software/ad/smalltalk/discussion/2000/november/ssmc1200.html#_edn4) \-\- and thought that it was hot, hot, hot with 64K of memory -- by only saying “because it’s there”. J
+You may be asking yourself, why all this fuss for a few hundred kilobytes of memory? Well, I’ll save you the pain of reading my ranting about when I worked long ago on a PC/AT with expansion unit \[4\] \-\- and thought that it was hot, hot, hot with 64K of memory -- by only saying “because it’s there”. J
 
 ## Conclusion
 
